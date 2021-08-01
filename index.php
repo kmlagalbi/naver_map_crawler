@@ -5,17 +5,9 @@
 <!DOCTYPE html>
 <html>
   <body>
-  
     How to use Crawler<br><br>
-    1. load roadAddress dataset by load.php<br>
-    2. find the roadAddress index number range of town you will search<br>
-    3. change navdb settings and execute navdb.php<br>
-    4. check manually by navc.php
-
-    <!--
-    <a href="insert.php">insert</a>
-    <br>
-    <a href="jsonread.php">jsonread</a>
-    -->
+    1. load roadAddress dataset to your MySQL server by load.php<br>
+    2. enter the town's name you want to crawl POI data into startCrawl function and execute navdb.php<br>
+    3. crawling is also possible by road address in navc.php
   </body>
 </html>
