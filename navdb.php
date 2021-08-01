@@ -3,9 +3,7 @@
     require("navc.php");
 
     function startCrawl($guName) {  
-        //$conn = mysqli_connect('34.64.113.200', 'root', 'cw6y9m', 'poidb');
-        // $conn = mysqli_connect("localhost", "root", "iamnardis", "places");
-        $conn = mysqli_connect("34.64.216.253", "root", "duckduck0127", "places");
+        $conn = mysqli_connect("your ip address", "id", "password", "places");
        
         /* 강동구
         $sql = "select * from codeStore where cggName = '강동구'";
