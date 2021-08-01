@@ -1,7 +1,5 @@
 <?php
-
-    //$conn = mysqli_connect("34.64.113.200", "root", "cw6y9m", "poidb");
-    $conn = mysqli_connect("localhost", "root", "iamnardis", "places");
+    $conn = mysqli_connect("your ip address", "id", "password", "places");
 
     $dataAdd = "LOAD DATA LOCAL INFILE 'd.txt' ";
     $p1 = "INTO TABLE codeStore CHARACTER SET utf8 FIELDS TERMINATED BY '|' ";
