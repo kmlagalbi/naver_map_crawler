@@ -160,9 +160,7 @@ function insertIntoDB($arr) {
                 $businessHour = mb_substr($businessHour, 0, 300);
             }
     
-            //$connNav = mysqli_connect('34.64.113.200', 'root', 'cw6y9m', 'poidb');
-            //$connNav = mysqli_connect("localhost", "root", "iamnardis", "places");
-            $connNav = mysqli_connect("34.64.216.253", "root", "duckduck0127", "places");
+            $connNav = mysqli_connect("your ip address", "id", "password", "places");
 
             $sql  = "INSERT INTO navplaces (
                 name, nid, roadAddr, jibunAddr, detailAddr,
